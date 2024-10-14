@@ -1,0 +1,74 @@
+body {
+    height: 100%; 
+    margin: 0; 
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+.container{
+    background-image:url( "image.png");
+    background-size: cover; 
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    color: white;
+}
+#save-element{
+    background-color: black;
+    font-size: 30px
+}
+h1{
+    margin: 2px;
+}
+button{
+    padding: 10px;
+    margin: 6px;
+    width:29%;
+    justify-content: center;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 21px;
+    
+}
+#increment{
+    background-color:yellowgreen;
+}
+#decrement{
+    background-color: rgb(247, 110, 110);
+}
+#save{
+    background-color: rgb(0, 157, 255);;
+}
+#reset{
+    background-color: rgb(154, 47, 255);
+}
+.footer {
+    background-color: #f4f4f4;
+    padding: 15px;
+    text-align: center;
+    font-size: 18px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.footer p {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.signature {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: #007BFF;
+    font-size: 20px;
+}
